@@ -1,6 +1,6 @@
 import { CreateTaskDTO, Task, UpdateTaskDTO } from '../types/task';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export const api = {
   getTasks: async (): Promise<Task[]> => {
