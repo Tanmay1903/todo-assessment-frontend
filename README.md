@@ -54,7 +54,11 @@ npm run dev
 ## Project Structure
 
 src/
+
 ├── app/                   # App router pages
+
 ├── components/            # Reusable components
+
 ├── lib/                   # Utilities and API client
+
 └── types/                # TypeScript definitions
